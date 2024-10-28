@@ -1,4 +1,4 @@
-package org.nisanth.prep;
+package org.nisanth.prep.constructor_understanding;
 
 public class CustomerConstructor {
     int id,phoneNumber;
