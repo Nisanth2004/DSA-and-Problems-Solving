@@ -8,15 +8,15 @@ public class ThreadCaller {
     // Inheritance - Invoking parent class
     public static void main(String[] args) {
         ChildThread childThread = new ChildThread();
-        System.out.println(childThread.getState()); // NEW
+        //System.out.println(childThread.getState()); // NEW
 
-        childThread.setPriority(1); // 10-> low
+       // childThread.setPriority(1); // 10-> low
 
          childThread.start(); // you are starting a new thread (parallel execution)
 
 
 
-        System.out.println(childThread.getState()); // RUNNABLE
+      //  System.out.println(childThread.getState()); // RUNNABLE
 
 
 

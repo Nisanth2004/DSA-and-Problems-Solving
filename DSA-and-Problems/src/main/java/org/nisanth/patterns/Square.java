@@ -13,7 +13,7 @@ public class Square {
                     System.out.print("*");
                 }
                 else{
-                    System.out.print("0");
+                    System.out.print(" ");
                 }
             }
 

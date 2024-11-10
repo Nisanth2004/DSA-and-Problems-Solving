@@ -23,7 +23,7 @@ public class CustomerConstructor {
 
         CustomerConstructor anbu=new CustomerConstructor("Anbu",1,"Perambalur",1234);
         CustomerConstructor selvam=new CustomerConstructor("Selvam");
-        //anbu.applyLoan();
+        anbu.applyLoan();
         //selvam.applyLoan();
     }
 

@@ -7,7 +7,7 @@ public class ChildThread extends Thread{
         for(int i=0;i<5;i++)
         {
 
-           // Thread.yield(); // main thread is have priority
+           Thread.yield(); // main thread is have priority
 
             try {
                 Thread.sleep(1000); // running to sleeping state
