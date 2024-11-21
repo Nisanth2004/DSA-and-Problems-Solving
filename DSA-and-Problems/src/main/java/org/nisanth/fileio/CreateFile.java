@@ -13,6 +13,7 @@ public class CreateFile {
         }*/
 
         file.createNewFile();
+        System.out.println(file.length());
         System.out.println(file.canRead());
         System.out.println(file.canWrite());
 
