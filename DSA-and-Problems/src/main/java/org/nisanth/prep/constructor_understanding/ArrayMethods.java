@@ -17,12 +17,13 @@ public class ArrayMethods {
         ArrayMethods arrayMethods=new ArrayMethods("Nisanth");
         ArrayMethods arrayMethod=new ArrayMethods("Sujith");
 
-        ArrayMethods[] students={arrayMethods,arrayMethod};
 
+        ArrayMethods[] students={arrayMethods,arrayMethod};
         for(ArrayMethods array:students)
         {
             array.display();
         }
+
 
 
     }
